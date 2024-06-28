@@ -12,7 +12,7 @@ function About() {
       Education & Training
       </h1>
       <span>
-        [Degree/Certification], [Institution], [Year] [Degree/Certification], [Institution], [Year] [Relevant Course], [Platform/Institution], [Year]
+        Bachelor of Computer Applications, Sapient College, Mysore, 2021-24.
       </span>
       <br />
       <br />
@@ -20,7 +20,7 @@ function About() {
       Skills & Expertise
       </h1>
       <span>
-      Proficient in [Programming Languages] Experienced with [Software Tools/Technologies] Strong grasp of [Design Principles/Concepts] Excellent problem-solving skills Effective communicator and collaborato      
+      Proficient in JavaScript. Experienced with Express, React, Type Script, MongoDB..etc. Strong grasp of NodeJs(npm), Excellent problem-solving skills, Effective communicator and collaborator.      
       </span>
       <br />
       <br />
@@ -28,15 +28,7 @@ function About() {
       Professional Experience
       </h1>
       <span>
-      [Job Title], [Company/Organization], [Dates] [Brief description of responsibilities and achievements] [Job Title], [Company/Organization], [Dates] [Brief description of responsibilities and achievements] [Freelance/Contract Work], [Client/Organization], [Dates] [Brief description of projects and contributions]      
-      </span>
-      <br />
-      <br />
-      <h1 className="text-green-500 font-semibold text-xl">
-      Achievements & Awards
-      </h1>
-      <span>
-      [Award/Recognition], [Organization/Institution], [Year] [Achievement], [Organization/Platform], [Year]      
+      Web Development (Intern), SKILLUP Academy Mysore, 2023-24, Worked as a web development intern and built enterprise level web applications. 
       </span>
       <br />
       <br />

@@ -1,10 +1,10 @@
 import React from 'react'
-import pic from "../../public/photo.avif"
+import pic from "../../public/homepic.webp"
 
 import { FaSquareFacebook } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
-import { IoLogoYoutube } from "react-icons/io";
-import { FaTelegram } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 import { SiMongodb } from "react-icons/si";
 import { SiExpress } from "react-icons/si";
@@ -41,10 +41,10 @@ function Home() {
       {/* social media icons here*/}
       <div className="flex flex-col md:flex-row justify-between space-y-6 md:space-y-0 items-center">
       <div className="space-y-2 ">
-        <h1 className="font-bold ">Available on</h1>
+        <h1 className="font-bold md:text-start text-center md:pl-1">Available on</h1>
         <ul className="flex space-x-5">
             <li>
-                <a href="https://www.facebook.com/" target="_blank">
+                <a href="https://www.facebook.com/ponnanna.coorg.3/" target="_blank">
                 <FaSquareFacebook className="text-2xl cursor-pointer" />
                 </a>
             </li>
@@ -54,20 +54,20 @@ function Home() {
                 </a>
             </li>
             <li>
-              <a href="https://www.youtube.com/" target="_blank">
-                <IoLogoYoutube className="text-2xl cursor-pointer" />
+              <a href="https://github.com/dhyanponnanna" target="_blank">
+                <FaGithub className="text-2xl cursor-pointer" />
                 </a>
             </li>
             <li>
-              <a href="https://www.t.me/" target="_blank">
-                <FaTelegram className="text-2xl cursor-pointer" />
+              <a href="https://www.instagram.com/dhyan_ponnanna?igsh=a3VxbzgyYmJ0OXIz" target="_blank">
+                <FaInstagram className="text-2xl cursor-pointer" />
                 </a>
             </li>
         </ul>
       </div>
       <div className="space-y-2">
-      <h1 className="font-bold ">Currently Working on</h1>
-        <div className="flex space-x-5 ">
+      <h1 className="font-bold text-center">Currently Working on</h1>
+        <div className=" justify-center flex space-x-5">
             <SiMongodb className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]" />
             <SiExpress className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]" />
             <FaReact className="text-xl md:text-3xl hover:scale-110 duration-200 rounded-full border-[2px]" />

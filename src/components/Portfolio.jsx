@@ -55,7 +55,9 @@ function Portfolio() {
                         </div>
                         <div className="justify-around px-6 py-4 space-x-3">
                             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold px-4 py-2 rounded">Video</button>
-                            <button className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded">Source code</button>
+                            <a href="https://github.com/dhyanponnanna?tab=repositories" target="_blank">
+                            <button className="bg-green-500 hover:bg-green-700 text-white font-bold px-4 py-2 rounded ">Source code</button>
+                            </a>
                         </div>
                     </div>
                 ))
